@@ -1,0 +1,95 @@
+.swiper {
+  margin-top: 0.44444444rem;
+}
+.swiper .swiper-wrapper {
+  height: 5.4962963rem;
+  background: #ebc;
+  border-radius: 0.37037037rem;
+}
+.swiper .swiper-pagination > span {
+  background: #a8a6a4ca;
+}
+.swiper .swiper-pagination > span.swiper-pagination-bullet-active {
+  opacity: 1;
+  background: #f65552;
+}
+.category {
+  height: 4.48888889rem;
+  position: relative;
+  border-bottom: 1px solid #e6e6e6;
+  padding-top: 1px !important;
+}
+.category .category-row {
+  display: flex;
+  text-align: center;
+  margin-top: 0.87407407rem;
+}
+.category .category-row li {
+  flex: 1;
+  height: 2.71111111rem;
+  position: relative;
+}
+.category .category-row li a {
+  display: block;
+  color: #333333;
+  font-size: 0.42962963rem;
+  margin-top: 2.37037037rem;
+}
+.category .category-row li a::before {
+  content: "";
+  position: absolute;
+  border-radius: 50%;
+  background: #4bc;
+  top: 0;
+  left: 17%;
+  width: 1.94074074rem;
+  height: 1.94074074rem;
+}
+.recommend {
+  padding-top: 0.74074074rem;
+}
+.recommend .recommend-header h3 {
+  float: left;
+  font-size: 0.68148148rem;
+  color: #333333;
+}
+.recommend .recommend-header a {
+  float: right;
+  width: 2.6962963rem;
+  height: 1.08148148rem;
+  line-height: 1.08148148rem;
+  font-size: 0.45925926rem;
+  text-align: center;
+  border: 1px solid #e6e6e6;
+  border-radius: 2.6962963rem;
+}
+.recommend .recommend-content {
+  margin-top: 0.56296296rem;
+}
+.recommend .recommend-content .recommend-row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 0.99259259rem;
+}
+.recommend .recommend-content .recommend-row .item {
+  width: 4.59259259rem;
+  height: 6.13333333rem;
+}
+.recommend .recommend-content .recommend-row .item .top-layout {
+  box-sizing: border-box;
+  width: 100%;
+  height: 4.59259259rem;
+  border-radius: 0.20740741rem;
+  background: #eb9;
+  margin-bottom: 0.4rem;
+  padding-right: 0.22222222rem;
+  text-align: right;
+}
+.recommend .recommend-content .recommend-row .item .top-layout .host {
+  color: #fff;
+  font-size: 0.44444444rem;
+}
+.recommend .recommend-content .recommend-row .item .bottom-title {
+  font-size: 0.44444444rem;
+  color: #333333;
+}
